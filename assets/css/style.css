@@ -3,9 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
 
 
 
@@ -1878,5 +1875,22 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+  /* Portfolio card text */
+  article.portfolio .project-description
+  {
+    color: #f1f5f9;   /* light text for dark bg */
+  }
+
+  /* (optional) make titles brighter too */
+  article.portfolio .project-title
+  {
+    color: #ffffff;
+  }
+
+  /* ---- Portfolio card spacing ---- */
+/* Case A: title & description are direct children of <li> */
+  
+  
 
 }
