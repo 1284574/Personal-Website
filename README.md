@@ -31,16 +31,3 @@ JavaScript (assets/js/script.js) — no frameworks
 Ionicons for icons
 
 Google Fonts (Poppins)
-
-
-📁 Project Structure
-.
-├─ index.html
-├─ assets/
-│  ├─ css/
-│  │  └─ style.css
-│  ├─ js/
-│  │  └─ script.js
-│  └─ images/
-│     ├─ my-avatar.png
-│     └─ logo.ico
