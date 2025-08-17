@@ -1,44 +1,45 @@
-# vCard - Personal portfolio
+Personal Portfolio — Aaryaman Singh
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+A clean, single-page portfolio built with HTML + CSS + vanilla JS. The layout uses a left sidebar for contact info and a right panel with tabbed sections for About, Resume, and Portfolio. Ionicons provides icons; Google Fonts (Poppins) for typography.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+✨ Features
 
-## Demo
+Sidebar with avatar, contact details, and collapsible Show Contacts panel
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+Top navbar with buttons that switch sections without reloading (JS toggles active)
 
-## Prerequisites
+Sections:
 
-Before you begin, ensure you have met the following requirements:
+About — short bio
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+Resume — education & experience timelines
 
-## Installing vCard
+Portfolio — project cards with titles, descriptions, and external links
 
-To install **vCard**, follow these steps:
+Responsive, keyboard-accessible buttons
 
-Linux and macOS:
+Zero build tools — deploy anywhere (GitHub Pages, Netlify, Vercel, static hosting)
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+🧱 Tech Stack
 
-Windows:
+HTML5 (semantic articles + data attributes)
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+CSS3 (assets/css/style.css)
 
-## Contact
+JavaScript (assets/js/script.js) — no frameworks
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+Ionicons for icons
 
-## License
+Google Fonts (Poppins)
 
-MIT
+📁 Project Structure
+.
+├─ index.html
+├─ assets/
+│  ├─ css/
+│  │  └─ style.css
+│  ├─ js/
+│  │  └─ script.js
+│  └─ images/
+│     ├─ my-avatar.png
+│     └─ logo.ico
